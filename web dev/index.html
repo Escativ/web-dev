@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <nav>
+        
+    </nav>
+
+    <div class="container">
+
+        <div class="inputsDiv">
+            <label for="name" class="labels">Vardas</label><br>
+            <input type="text" id="name" class="inputs"><br>
+            <label for="name" class="labels">Pavardė</label><br>
+            <input type="text" id="pname" class="inputs"><br>
+            <label for="task" class="labels">Mašinos modelis:</label><br>
+            <input type="text" id="carModel" class="inputs"><br>
+            <label for="task" class="labels">Aprašymas</label><br>
+            <input type="text" id="desc" class="inputs1"><br>
+
+            <button id="save" class="inputs">Save</button>
+        </div>
+
+        <div class="table">
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>užsakymų duomenys</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+
+
+    
+        <!-- <label for="status" class="labels">Priotity</label>
+        <select name="status" id="status" class="inputs">
+        <option value="lauk">Laukiama</option>
+        <option value="vyg">Vygdoma</option>
+        <option value="baig"> Baigta</option>
+        </select><br> -->
+
+    <script type="module" src="./index.js"></script>
+    <script type="module" src="./firebase.js"></script>
+</body>
+</html>
